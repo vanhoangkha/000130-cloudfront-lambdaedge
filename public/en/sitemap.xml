@@ -158,6 +158,18 @@
                 href="/8-cache-behavior/"
                 />
   </url><url>
+    <loc>/9-lambdaedge-function/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/9-lambdaedge-function/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/9-lambdaedge-function/"
+                />
+  </url><url>
     <loc>/10-deploy-lambdaedge-function/</loc>
     <xhtml:link
                 rel="alternate"
@@ -192,19 +204,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/12-cleanup/"
-                />
-  </url><url>
-    <loc>/9-lambdaedge-function/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="/vi/9-lambdaedge-function/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/9-lambdaedge-function/"
                 />
   </url><url>
     <loc>/categories/</loc>

@@ -9,24 +9,24 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title> :: AWS CLOUDFRONT WORKSHOP</title>
+    <title>Create Lambda@Edge function :: AWS CLOUDFRONT WORKSHOP</title>
 
     
-    <link href="/css/nucleus.css?1676610591" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1676610591" rel="stylesheet">
-    <link href="/css/hybrid.css?1676610591" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1676610591" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1676610591" rel="stylesheet">
-    <link href="/css/auto-complete.css?1676610591" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1676610591" rel="stylesheet">
-    <link href="/css/theme.css?1676610591" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1676610591" rel="stylesheet">
+    <link href="/css/nucleus.css?1676615912" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1676615912" rel="stylesheet">
+    <link href="/css/hybrid.css?1676615912" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1676615912" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1676615912" rel="stylesheet">
+    <link href="/css/auto-complete.css?1676615912" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1676615912" rel="stylesheet">
+    <link href="/css/theme.css?1676615912" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1676615912" rel="stylesheet">
     
-    <link href="/css/theme-workshop.css?1676610591" rel="stylesheet">
+    <link href="/css/theme-workshop.css?1676615912" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1676610591"></script>
+    <script src="/js/jquery-3.3.1.min.js?1676615912"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1676610591"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1676610591"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1676615912"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1676615912"></script>
 <script type="text/javascript">
     
         var baseurl = "";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1676610591"></script>
+<script type="text/javascript" src="/js/search.js?1676615912"></script>
 
     
   </div>
@@ -426,6 +426,32 @@
  
   
     
+    <li data-nav-id="/9-lambdaedge-function/" title="Create Lambda@Edge function" class="dd-item 
+        parent
+        active
+        
+        ">
+      <a href="/9-lambdaedge-function/">
+           <b> 9. </b> Create Lambda@Edge function
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
     <li data-nav-id="/10-deploy-lambdaedge-function/" title="Deploy Lambda@Edge function to CloudFront" class="dd-item 
         
         
@@ -485,32 +511,6 @@
         ">
       <a href="/12-cleanup/">
            <b> 12. </b> Clean up resources
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/9-lambdaedge-function/" title="" class="dd-item 
-        parent
-        active
-        
-        ">
-      <a href="/9-lambdaedge-function/">
-          
           
             <i class="fas fa-check read-icon"></i>
           
@@ -655,7 +655,7 @@
             
           
           
-            <a href='/'>AWS CloudFront Workshop</a> > 
+            <a href='/'>AWS CloudFront Workshop</a> > Create Lambda@Edge function
           
         
           
@@ -668,11 +668,7 @@
     <div class="wrapper">
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#pre---b-9-b-">title : &ldquo;Create Lambda@Edge function&rdquo;
-date : &ldquo;<code>r Sys.Date()</code>&rdquo;
-weight : 9
-chapter : false
-pre : &quot; <!-- raw HTML omitted --> 9. <!-- raw HTML omitted --> &quot;</a>
+    <li>
       <ul>
         <li></li>
       </ul>
@@ -694,7 +690,7 @@ pre : &quot; <!-- raw HTML omitted --> 9. <!-- raw HTML omitted --> &quot;</a>
           
             <h1>
               
-              
+              Create Lambda@Edge function
             </h1>
           
 
@@ -702,12 +698,7 @@ pre : &quot; <!-- raw HTML omitted --> 9. <!-- raw HTML omitted --> &quot;</a>
 
 
 
-	<h2 id="pre---b-9-b-">title : &ldquo;Create Lambda@Edge function&rdquo;
-date : &ldquo;<code>r Sys.Date()</code>&rdquo;
-weight : 9
-chapter : false
-pre : &quot; <!-- raw HTML omitted --> 9. <!-- raw HTML omitted --> &quot;</h2>
-<h4 id="create-lambdaedge-function">Create Lambda@Edge function</h4>
+	<h4 id="create-lambdaedge-function">Create Lambda@Edge function</h4>
 <p>In this section, we will create a Lambda@Edge function.</p>
 <p><img src="/images/11/00013.png?featherlight=false&amp;width=90pc" alt="CloudFront Lab"></p>
 <p>1 - Go to the AWS Console and make sure you are in the US-EAST-1 N. Virginia region.</p>
@@ -1203,6 +1194,26 @@ module.exports.handler = handler;
             
                 
                     
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
                 
                 
 
@@ -1234,23 +1245,6 @@ module.exports.handler = handler;
             
             
                 
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
                     
                 
                 
@@ -1272,10 +1266,10 @@ module.exports.handler = handler;
 	 
 	 
 		
-			<a class="nav nav-prev" href="/12-cleanup/" title="Clean up resources"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/8-cache-behavior/" title="Creating Cache Behavior"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/1-introduction/" title="Introduction" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/10-deploy-lambdaedge-function/" title="Deploy Lambda@Edge function to CloudFront" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -1285,19 +1279,19 @@ module.exports.handler = handler;
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1676610591"></script>
-    <script src="/js/perfect-scrollbar.min.js?1676610591"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1676610591"></script>
-    <script src="/js/jquery.sticky.js?1676610591"></script>
-    <script src="/js/featherlight.min.js?1676610591"></script>
-    <script src="/js/highlight.pack.js?1676610591"></script>
+    <script src="/js/clipboard.min.js?1676615912"></script>
+    <script src="/js/perfect-scrollbar.min.js?1676615912"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1676615912"></script>
+    <script src="/js/jquery.sticky.js?1676615912"></script>
+    <script src="/js/featherlight.min.js?1676615912"></script>
+    <script src="/js/highlight.pack.js?1676615912"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1676610591"></script>
-    <script src="/js/learn.js?1676610591"></script>
-    <script src="/js/hugo-learn.js?1676610591"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1676615912"></script>
+    <script src="/js/learn.js?1676615912"></script>
+    <script src="/js/hugo-learn.js?1676615912"></script>
 
-    <link href="/mermaid/mermaid.css?1676610591" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1676610591"></script>
+    <link href="/mermaid/mermaid.css?1676615912" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1676615912"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
