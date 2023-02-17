@@ -8,7 +8,9 @@ pre : " <b> 9. </b> "
 
 #### Tạo Lambda@Edge function
 
-rong phần này, chúng ta sẽ tạo một Lambda@Edge function.
+Trong phần này, chúng ta sẽ tạo một Lambda@Edge function.
+
+![CloudFront Lab](/images/11/00013.png?featherlight=false&width=90pc)
 
 1 - Truy cập vào AWS Console và đảm bảo rằng bạn đang ở khu vực US-EAST-1 N. Virginia.
 

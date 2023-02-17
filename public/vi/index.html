@@ -12,21 +12,21 @@
     <title>AWS CloudFront Workshop :: AWS CLOUDFRONT WORKSHOP</title>
 
     
-    <link href="/css/nucleus.css?1676529630" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1676529630" rel="stylesheet">
-    <link href="/css/hybrid.css?1676529630" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1676529630" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1676529630" rel="stylesheet">
-    <link href="/css/auto-complete.css?1676529630" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1676529630" rel="stylesheet">
-    <link href="/css/theme.css?1676529630" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1676529630" rel="stylesheet">
+    <link href="/css/nucleus.css?1676609354" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1676609354" rel="stylesheet">
+    <link href="/css/hybrid.css?1676609354" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1676609354" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1676609354" rel="stylesheet">
+    <link href="/css/auto-complete.css?1676609354" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1676609354" rel="stylesheet">
+    <link href="/css/theme.css?1676609354" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1676609354" rel="stylesheet">
     
-    <link href="/css/theme-workshop.css?1676529630" rel="stylesheet">
+    <link href="/css/theme-workshop.css?1676609354" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1676529630"></script>
+    <script src="/js/jquery-3.3.1.min.js?1676609354"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1676529630"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1676529630"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1676609354"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1676609354"></script>
 <script type="text/javascript">
     
         var baseurl = "\/vi";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1676529630"></script>
+<script type="text/javascript" src="/js/search.js?1676609354"></script>
 
     
   </div>
@@ -648,16 +648,17 @@
  
 <h1 id="aws-cloudfront-workshop">AWS CloudFront Workshop</h1>
 <h4 id="tổng-quan">Tổng quan</h4>
-<p>Amazon CloudFront là dịch vụ phân phối nội dung tĩnh và động của Amazon Web Services (AWS). Với khả năng tăng tốc độ và độ ổn định của ứng dụng web của bạn, Amazon CloudFront cung cấp một giải pháp lưu trữ tạm thời cho nội dung của bạn trên các máy chủ Amazon Edge.</p>
-<p>Amazon CloudFront có khả năng tùy chỉnh và linh hoạt cho phép bạn cấu hình các tính năng như <strong>EC2</strong> và <strong>S3 Origins</strong>, <strong>CloudFront Distribution</strong>, <strong>Custom Error Page</strong>, Origin Group, Response Headers, tạo hành vi bộ đệm mới, tạo hàm Lambda@Edge và triển khai hàm Lambda@Edge lên CloudFront. Điều này giúp tăng tính sẵn sàng của nội dung và giảm thời gian phản hồi.</p>
-<p>Ngoài ra, Amazon CloudFront còn cung cấp các tính năng giám sát và phân tích hiệu suất của nội dung được phân phối thông qua dịch vụ này. Với việc lưu trữ nhật ký trong S3 và sử dụng các công cụ như Amazon Athena và Amazon Redshift, bạn có thể dễ dàng giám sát và phân tích hiệu suất của nội dung của mình.</p>
-<p>Để giúp bạn hiểu rõ hơn về Amazon CloudFront, hãy xem xét một số tính năng và cách sử dụng của dịch vụ này:</p>
+<p><strong>Amazon CloudFront</strong> là dịch vụ phân phối nội dung tĩnh và động của Amazon Web Services (AWS). Với khả năng tăng tốc độ và độ ổn định của ứng dụng web của bạn, <strong>Amazon CloudFront</strong> cung cấp một giải pháp lưu trữ tạm thời cho nội dung của bạn trên các máy chủ Amazon Edge.</p>
+<p><img src="/images/11/00012.png?featherlight=false&amp;width=90pc" alt="CloudFront Lab"></p>
+<p><strong>Amazon CloudFront</strong> có khả năng tùy chỉnh và linh hoạt cho phép bạn cấu hình các tính năng như <strong>EC2</strong> và <strong>S3 Origins</strong>, <strong>CloudFront Distribution</strong>, <strong>Custom Error Page</strong>, Origin Group, Response Headers, tạo hành vi bộ đệm mới, tạo hàm <strong>Lambda@Edge</strong>và triển khai hàm <strong>Lambda@Edge</strong>lên CloudFront. Điều này giúp tăng tính sẵn sàng của nội dung và giảm thời gian phản hồi.</p>
+<p>Ngoài ra, <strong>Amazon CloudFront</strong> còn cung cấp các tính năng giám sát và phân tích hiệu suất của nội dung được phân phối thông qua dịch vụ này. Với việc lưu trữ nhật ký trong S3 và sử dụng các công cụ như Amazon Athena và Amazon Redshift, bạn có thể dễ dàng giám sát và phân tích hiệu suất của nội dung của mình.</p>
+<p>Để giúp bạn hiểu rõ hơn về <strong>Amazon CloudFront</strong>, hãy xem xét một số tính năng và cách sử dụng của dịch vụ này:</p>
 <ol>
 <li>
-<p><strong>EC2 và S3 Origins</strong>: Amazon CloudFront cho phép bạn kết nối nội dung từ EC2 hoặc S3. Điều này giúp tăng tốc độ và giảm thời gian phản hồi của ứng dụng web của bạn.</p>
+<p><strong>EC2 và S3 Origins</strong>: <strong>Amazon CloudFront</strong> cho phép bạn kết nối nội dung từ EC2 hoặc S3. Điều này giúp tăng tốc độ và giảm thời gian phản hồi của ứng dụng web của bạn.</p>
 </li>
 <li>
-<p><strong>CloudFront Distribution</strong>: Để sử dụng Amazon CloudFront, bạn cần tạo một phân phối. Phân phối là một tập hợp các máy chủ Edge của Amazon, mà nội dung của bạn được lưu trữ tạm thời trên đó.</p>
+<p><strong>CloudFront Distribution</strong>: Để sử dụng <strong>Amazon CloudFront</strong>, bạn cần tạo một phân phối. Phân phối là một tập hợp các máy chủ Edge của Amazon, mà nội dung của bạn được lưu trữ tạm thời trên đó.</p>
 </li>
 <li>
 <p><strong>Custom Error Page</strong>: Bạn có thể tùy chỉnh trang lỗi của mình để tương thích với trang web của bạn.</p>
@@ -675,13 +676,13 @@
 <p><strong>Tạo hàm Lambda@Edge</strong>: Nếu bạn muốn xử lý yêu cầu CloudFront, bạn có thể sử dụng hàm Lambda@Edge.</p>
 </li>
 <li>
-<p><strong>Triển khai hàm Lambda@Edge lên CloudFront</strong>: Bạn có thể triển khai hàm Lambda@Edge của mình lên CloudFront bằng cách sử dụng AWS CLI.</p>
+<p><strong>Triển khai hàm <strong>Lambda@Edge</strong>lên CloudFront</strong>: Bạn có thể triển khai hàm <strong>Lambda@Edge</strong>của mình lên CloudFront bằng cách sử dụng AWS CLI.</p>
 </li>
 <li>
-<p><strong>Metrics and Logs</strong>: Amazon CloudFront cung cấp các tính năng giám sát và phân tích hiệu suất của nội dung được phân phối thông qua dịch vụ này. Với việc lưu trữ nhật ký trong S3 và sử dụng các công cụ như Amazon Athena và Amazon Redshift, bạn có thể dễ dàng giám sát và phân tích hiệu suất của nội dung của mình.</p>
+<p><strong>Metrics and Logs</strong>: <strong>Amazon CloudFront</strong> cung cấp các tính năng giám sát và phân tích hiệu suất của nội dung được phân phối thông qua dịch vụ này. Với việc lưu trữ nhật ký trong S3 và sử dụng các công cụ như Amazon Athena và Amazon Redshift, bạn có thể dễ dàng giám sát và phân tích hiệu suất của nội dung của mình.</p>
 </li>
 </ol>
-<p>Như vậy, Amazon CloudFront là một dịch vụ tuyệt vời để tăng tốc độ và độ ổn định của ứng dụng web của bạn. Với các tính năng và ưu điểm của nó, Amazon CloudFront là một giải pháp phân phối nội dung đáng tin cậy và linh hoạt.</p>
+<p>Như vậy, <strong>Amazon CloudFront</strong> là một dịch vụ tuyệt vời để tăng tốc độ và độ ổn định của ứng dụng web của bạn. Với các tính năng và ưu điểm của nó, <strong>Amazon CloudFront</strong> là một giải pháp phân phối nội dung đáng tin cậy và linh hoạt.</p>
 <h4 id="nội-dung">Nội dung:</h4>
 <ol>
 <li><a href="1-introduction/">Giới thiệu</a></li>
@@ -692,8 +693,8 @@
 <li><a href="6-origin-group/">Cấu hình Origin Group</a></li>
 <li><a href="7-response-headers/">Các phần tiêu đề phản hồi (Response Headers)</a></li>
 <li><a href="8-cache-behavior/">Tạo Cache Behavior</a></li>
-<li><a href="9-lambdaedge-function/">Tạo Lambda@Edge function</a></li>
-<li><a href="10-deploy-lambdaedge-function/">Triển khai Lambda@Edge function đến CloudFront</a></li>
+<li><a href="9-lambdaedge-function/">Tạo <strong>Lambda@Edge</strong>function</a></li>
+<li><a href="10-deploy-lambdaedge-function/">Triển khai <strong>Lambda@Edge</strong>function đến CloudFront</a></li>
 <li><a href="11-metrics-and-logs/">Metric và Logs</a></li>
 <li><a href="12-cleanup/">Dọn dẹp tài nguyên</a></li>
 </ol>
@@ -1008,19 +1009,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1676529630"></script>
-    <script src="/js/perfect-scrollbar.min.js?1676529630"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1676529630"></script>
-    <script src="/js/jquery.sticky.js?1676529630"></script>
-    <script src="/js/featherlight.min.js?1676529630"></script>
-    <script src="/js/highlight.pack.js?1676529630"></script>
+    <script src="/js/clipboard.min.js?1676609354"></script>
+    <script src="/js/perfect-scrollbar.min.js?1676609354"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1676609354"></script>
+    <script src="/js/jquery.sticky.js?1676609354"></script>
+    <script src="/js/featherlight.min.js?1676609354"></script>
+    <script src="/js/highlight.pack.js?1676609354"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1676529630"></script>
-    <script src="/js/learn.js?1676529630"></script>
-    <script src="/js/hugo-learn.js?1676529630"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1676609354"></script>
+    <script src="/js/learn.js?1676609354"></script>
+    <script src="/js/hugo-learn.js?1676609354"></script>
 
-    <link href="/mermaid/mermaid.css?1676529630" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1676529630"></script>
+    <link href="/mermaid/mermaid.css?1676609354" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1676609354"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

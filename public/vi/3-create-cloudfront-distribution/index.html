@@ -12,21 +12,21 @@
     <title>Tạo CloudFront Distribution :: AWS CLOUDFRONT WORKSHOP</title>
 
     
-    <link href="/css/nucleus.css?1676529630" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1676529630" rel="stylesheet">
-    <link href="/css/hybrid.css?1676529630" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1676529630" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1676529630" rel="stylesheet">
-    <link href="/css/auto-complete.css?1676529630" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1676529630" rel="stylesheet">
-    <link href="/css/theme.css?1676529630" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1676529630" rel="stylesheet">
+    <link href="/css/nucleus.css?1676609354" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1676609354" rel="stylesheet">
+    <link href="/css/hybrid.css?1676609354" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1676609354" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1676609354" rel="stylesheet">
+    <link href="/css/auto-complete.css?1676609354" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1676609354" rel="stylesheet">
+    <link href="/css/theme.css?1676609354" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1676609354" rel="stylesheet">
     
-    <link href="/css/theme-workshop.css?1676529630" rel="stylesheet">
+    <link href="/css/theme-workshop.css?1676609354" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1676529630"></script>
+    <script src="/js/jquery-3.3.1.min.js?1676609354"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1676529630"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1676529630"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1676609354"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1676609354"></script>
 <script type="text/javascript">
     
         var baseurl = "\/vi";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1676529630"></script>
+<script type="text/javascript" src="/js/search.js?1676609354"></script>
 
     
   </div>
@@ -700,14 +700,14 @@
 
 	<h4 id="tạo-cloudfront-distribution">Tạo CloudFront Distribution</h4>
 <ol>
-<li>Truy cập vào CloudFront trên bảng điều khiển AWS và nhấp vào Create a CloudFront Distribution.</li>
+<li>Truy cập vào CloudFront trên bảng điều khiển AWS và nhấp vào <strong>Create a CloudFront Distribution</strong>.</li>
 </ol>
 <p><img src="/images/3/0001.png?featherlight=false&amp;width=90pc" alt="Create CloudFront Distribution"></p>
 <ol start="2">
 <li>
 <p>Cấu hình nguồn mặc định cho S3 bucket được tạo trước đó và cấp quyền cho CloudFront truy cập vào bucket bằng cách sử dụng thiết lập Origin Access Identity:</p>
 <ul>
-<li>Origin domain &gt; Chọn S3 bucket của bạn</li>
+<li><strong>Origin domain</strong> &gt; Chọn S3 bucket của bạn</li>
 <li>Truy cập S3 bucket &gt; Yes sử dụng OAI (bucket có thể giới hạn truy cập chỉ cho CloudFront)</li>
 </ul>
 </li>
@@ -717,7 +717,7 @@
 <li>
 <p>Origin access identity</p>
 <ul>
-<li>Nhấp vào Create new OAI</li>
+<li>Nhấp vào <strong>Create new OAI</strong></li>
 </ul>
 </li>
 </ol>
@@ -731,12 +731,12 @@
 </ol>
 <p><img src="/images/3/0004.png?featherlight=false&amp;width=90pc" alt="Create CloudFront Distribution"></p>
 <ol start="5">
-<li>Policy bucket &gt; Yes, update the bucket policy</li>
+<li><strong>Policy bucket</strong> &gt; <strong>Yes, update the bucket policyt</strong></li>
 </ol>
 <p><img src="/images/3/0005.png?featherlight=false&amp;width=90pc" alt="Create CloudFront Distribution"></p>
 <p>6.Cấu hình Default Cache Behavior như sau:</p>
 <ul>
-<li>View protocol policy &gt; Redirect  HTTP to HTTPS.</li>
+<li><strong>View protocol policy</strong> &gt; <strong>Redirect HTTP to HTTPS</strong>.</li>
 </ul>
 <p><img src="/images/3/0006.png?featherlight=false&amp;width=90pc" alt="Create CloudFront Distribution"></p>
 <ol start="7">
@@ -761,7 +761,7 @@
 </ol>
 <p><img src="/images/3/0008.png?featherlight=false&amp;width=90pc" alt="Create CloudFront Distribution"></p>
 <ol start="9">
-<li>Nhấp vào Create distribution</li>
+<li>Nhấp vào <strong>Create distribution</strong></li>
 </ol>
 <p><img src="/images/3/0009.png?featherlight=false&amp;width=90pc" alt="Create CloudFront Distribution"></p>
 <ol start="10">
@@ -1101,19 +1101,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1676529630"></script>
-    <script src="/js/perfect-scrollbar.min.js?1676529630"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1676529630"></script>
-    <script src="/js/jquery.sticky.js?1676529630"></script>
-    <script src="/js/featherlight.min.js?1676529630"></script>
-    <script src="/js/highlight.pack.js?1676529630"></script>
+    <script src="/js/clipboard.min.js?1676609354"></script>
+    <script src="/js/perfect-scrollbar.min.js?1676609354"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1676609354"></script>
+    <script src="/js/jquery.sticky.js?1676609354"></script>
+    <script src="/js/featherlight.min.js?1676609354"></script>
+    <script src="/js/highlight.pack.js?1676609354"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1676529630"></script>
-    <script src="/js/learn.js?1676529630"></script>
-    <script src="/js/hugo-learn.js?1676529630"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1676609354"></script>
+    <script src="/js/learn.js?1676609354"></script>
+    <script src="/js/hugo-learn.js?1676609354"></script>
 
-    <link href="/mermaid/mermaid.css?1676529630" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1676529630"></script>
+    <link href="/mermaid/mermaid.css?1676609354" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1676609354"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

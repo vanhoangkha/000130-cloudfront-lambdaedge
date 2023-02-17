@@ -10,6 +10,9 @@ pre : " <b> 10. </b> "
 
 Trong phần này, chúng ta sẽ thêm CloudFront như là một trigger cho Lambda function của bạn.
 
+![CloudFront Lab](/images/11/00014.png?featherlight=false&width=90pc)
+
+
 1. Trong cùng bảng điều khiển lambda, bạn đã triển khai version 1 của Lambda function. Nhấn vào nút Add trigger và chọn CloudFront.
 
 ![CloudFront Lab](/images/11/0001.png?featherlight=false&width=90pc)

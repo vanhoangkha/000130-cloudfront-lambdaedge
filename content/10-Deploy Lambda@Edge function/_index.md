@@ -10,6 +10,8 @@ pre : " <b> 10. </b> "
 
 In this section, we will add CloudFront as a trigger for your Lambda function.
 
+![CloudFront Lab](/images/11/00014.png?featherlight=false&width=90pc)
+
 1. In the same lambda console, you have implemented version 1 of the Lambda function. Click the Add trigger button and select CloudFront.
 
 ![CloudFront Lab](/images/11/0001.png?featherlight=false&width=90pc)

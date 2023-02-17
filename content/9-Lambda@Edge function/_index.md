@@ -9,6 +9,8 @@ pre : " <b> 9. </b> "
 
 In this section, we will create a Lambda@Edge function.
 
+![CloudFront Lab](/images/11/00013.png?featherlight=false&width=90pc)
+
 1 - Go to the AWS Console and make sure you are in the US-EAST-1 N. Virginia region.
 
 2 - Go to Lambda console and select **Create function**

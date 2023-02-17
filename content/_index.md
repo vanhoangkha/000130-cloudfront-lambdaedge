@@ -8,17 +8,19 @@ chapter : false
 # AWS CloudFront Workshop
 
 #### Overview
-Amazon CloudFront is the static and dynamic content delivery service of Amazon Web Services (AWS). With the ability to increase the speed and stability of your web applications, Amazon CloudFront provides a temporary storage solution for your content on Amazon Edge servers.
+**Amazon CloudFront** is the static and dynamic content delivery service of Amazon Web Services (AWS). With the ability to increase the speed and stability of your web applications, **Amazon CloudFront** provides a temporary storage solution for your content on Amazon Edge servers.
 
-Amazon CloudFront is customizable and flexible allowing you to configure features such as **EC2** and **S3 Origins**, **CloudFront Distribution**, **Custom Error Page**, Origin Group, Response Headers, create new cache behavior, create Lambda@Edge function and deploy Lambda@Edge function to CloudFront. This increases content availability and reduces response times.
+![CloudFront Lab](/images/11/00012.png?featherlight=false&width=90pc)
 
-In addition, Amazon CloudFront provides features that monitor and analyze the performance of content delivered through this service. By logging in to S3 and using tools like Amazon Athena and Amazon Redshift, you can easily monitor and analyze the performance of your assets.
+**Amazon CloudFront** is customizable and flexible allowing you to configure features such as **EC2** and **S3 Origins**, **CloudFront Distribution**, **Custom Error Page**, Origin Group, Response Headers, create new cache behavior, create Lambda@Edge function and deploy Lambda@Edge function to CloudFront. This increases content availability and reduces response times.
 
-To help you better understand Amazon CloudFront, let's look at some of its features and usage:
+In addition, **Amazon CloudFront** provides features that monitor and analyze the performance of content delivered through this service. By logging in to S3 and using tools like Amazon Athena and Amazon Redshift, you can easily monitor and analyze the performance of your assets.
 
-1. **EC2 and S3 Origins**: Amazon CloudFront allows you to connect content from EC2 or S3. This increases the speed and reduces the response time of your web application.
+To help you better understand **Amazon CloudFront**, let's look at some of its features and usage:
 
-2. **CloudFront Distribution**: To use Amazon CloudFront, you need to create a distribution. Distribution is a collection of Amazon's Edge servers, on which your content is temporarily stored.
+1. **EC2 and S3 Origins**: **Amazon CloudFront** allows you to connect content from EC2 or S3. This increases the speed and reduces the response time of your web application.
+
+2. **CloudFront Distribution**: To use **Amazon CloudFront**, you need to create a distribution. Distribution is a collection of Amazon's Edge servers, on which your content is temporarily stored.
 
 3. **Custom Error Page**: You can customize your error page to be compatible with your website.
 
@@ -32,9 +34,9 @@ To help you better understand Amazon CloudFront, let's look at some of its featu
 
 8. **Deploy Lambda@Edge to CloudFront**: You can deploy your Lambda@Edge function to CloudFront using the AWS CLI.
 
-9. **Metrics and Logs**: Amazon CloudFront provides features to monitor and analyze the performance of content delivered through this service. By logging in to S3 and using tools like Amazon Athena and Amazon Redshift, you can easily monitor and analyze the performance of your assets.
+9. **Metrics and Logs**: **Amazon CloudFront** provides features to monitor and analyze the performance of content delivered through this service. By logging in to S3 and using tools like Amazon Athena and Amazon Redshift, you can easily monitor and analyze the performance of your assets.
 
-As such, Amazon CloudFront is a great service to increase the speed and stability of your web application. With its features and strengths, Amazon CloudFront is a reliable and flexible content delivery solution.
+As such, **Amazon CloudFront** is a great service to increase the speed and stability of your web application. With its features and strengths, **Amazon CloudFront** is a reliable and flexible content delivery solution.
 
 #### Content:
 

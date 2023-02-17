@@ -8,20 +8,20 @@ pre : " <b> 3. </b> "
 
 #### Tạo CloudFront Distribution
 
-1. Truy cập vào CloudFront trên bảng điều khiển AWS và nhấp vào Create a CloudFront Distribution.
+1. Truy cập vào CloudFront trên bảng điều khiển AWS và nhấp vào **Create a CloudFront Distribution**.
 
 ![Create CloudFront Distribution](/images/3/0001.png?featherlight=false&width=90pc)
 
 2. Cấu hình nguồn mặc định cho S3 bucket được tạo trước đó và cấp quyền cho CloudFront truy cập vào bucket bằng cách sử dụng thiết lập Origin Access Identity:
 
-   - Origin domain > Chọn S3 bucket của bạn
+   - **Origin domain** > Chọn S3 bucket của bạn
    - Truy cập S3 bucket > Yes sử dụng OAI (bucket có thể giới hạn truy cập chỉ cho CloudFront)
 
 ![Create CloudFront Distribution](/images/3/0002.png?featherlight=false&width=90pc)
 
 3. Origin access identity
 
-   - Nhấp vào Create new OAI 
+   - Nhấp vào **Create new OAI** 
 
 
 ![Create CloudFront Distribution](/images/3/0003.png?featherlight=false&width=90pc)
@@ -30,13 +30,13 @@ pre : " <b> 3. </b> "
 
 ![Create CloudFront Distribution](/images/3/0004.png?featherlight=false&width=90pc)
 
-5. Policy bucket > Yes, update the bucket policy
+5. **Policy bucket** > **Yes, update the bucket policyt**
 
 ![Create CloudFront Distribution](/images/3/0005.png?featherlight=false&width=90pc)
 
 6.Cấu hình Default Cache Behavior như sau:
 
-   - View protocol policy > Redirect  HTTP to HTTPS.
+   - **View protocol policy** > **Redirect HTTP to HTTPS**.
 
 ![Create CloudFront Distribution](/images/3/0006.png?featherlight=false&width=90pc)
 
@@ -57,7 +57,7 @@ pre : " <b> 3. </b> "
 ![Create CloudFront Distribution](/images/3/0008.png?featherlight=false&width=90pc)
 
 
-9.  Nhấp vào Create distribution
+9.  Nhấp vào **Create distribution**
 
 ![Create CloudFront Distribution](/images/3/0009.png?featherlight=false&width=90pc)
 
