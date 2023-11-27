@@ -6,7 +6,7 @@ chapter : false
 pre : " <b> 3.1 </b> "
 ---
 
-#### Add EC2 Origi
+#### Add EC2 Origin
 
 
 
