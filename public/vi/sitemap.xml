@@ -26,16 +26,16 @@
                 href="/vi/1-introduction/"
                 />
   </url><url>
-    <loc>/vi/2-preparation/2.1-createec2/</loc>
+    <loc>/vi/2--preparation/2.1-createec2/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/2-preparation/2.1-createec2/"
+                href="/2--preparation/2.1-createec2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/2-preparation/2.1-createec2/"
+                href="/vi/2--preparation/2.1-createec2/"
                 />
   </url><url>
     <loc>/vi/3-create-cloudfront-distribution/3.1-addec2/</loc>
@@ -50,16 +50,16 @@
                 href="/vi/3-create-cloudfront-distribution/3.1-addec2/"
                 />
   </url><url>
-    <loc>/vi/2-preparation/</loc>
+    <loc>/vi/2--preparation/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/2-preparation/"
+                href="/2--preparation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/2-preparation/"
+                href="/vi/2--preparation/"
                 />
   </url><url>
     <loc>/vi/3-create-cloudfront-distribution/3.2-testapp/</loc>
@@ -74,16 +74,16 @@
                 href="/vi/3-create-cloudfront-distribution/3.2-testapp/"
                 />
   </url><url>
-    <loc>/vi/2-preparation/2.2-creates3/</loc>
+    <loc>/vi/2--preparation/2.2-creates3/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/2-preparation/2.2-creates3/"
+                href="/2--preparation/2.2-creates3/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/2-preparation/2.2-creates3/"
+                href="/vi/2--preparation/2.2-creates3/"
                 />
   </url><url>
     <loc>/vi/3-create-cloudfront-distribution/</loc>
@@ -146,40 +146,40 @@
                 href="/vi/7-response-headers/"
                 />
   </url><url>
-    <loc>/vi/8-cache-behavior/</loc>
+    <loc>/vi/8--cache-behavior/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/8-cache-behavior/"
+                href="/8--cache-behavior/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/8-cache-behavior/"
+                href="/vi/8--cache-behavior/"
                 />
   </url><url>
-    <loc>/vi/9-lambdaedge-function/</loc>
+    <loc>/vi/9-lambda@edge-function/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/9-lambdaedge-function/"
+                href="/9-lambda@edge-function/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/9-lambdaedge-function/"
+                href="/vi/9-lambda@edge-function/"
                 />
   </url><url>
-    <loc>/vi/10-deploy-lambdaedge-function/</loc>
+    <loc>/vi/10-deploy-lambda@edge-function/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/10-deploy-lambdaedge-function/"
+                href="/10-deploy-lambda@edge-function/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/10-deploy-lambdaedge-function/"
+                href="/vi/10-deploy-lambda@edge-function/"
                 />
   </url><url>
     <loc>/vi/11-metrics-and-logs/</loc>

@@ -4,6 +4,8 @@
     <title>Response Headers on AWS CLOUDFRONT WORKSHOP</title>
     <link>/7-response-headers/</link>
     <description>Recent content in Response Headers on AWS CLOUDFRONT WORKSHOP</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="/7-response-headers/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="/7-response-headers/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

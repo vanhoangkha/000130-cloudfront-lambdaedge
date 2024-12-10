@@ -4,6 +4,8 @@
     <title>Error Page Custom Configuration on AWS CLOUDFRONT WORKSHOP</title>
     <link>/5-custom-error-page/</link>
     <description>Recent content in Error Page Custom Configuration on AWS CLOUDFRONT WORKSHOP</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="/5-custom-error-page/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="/5-custom-error-page/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -4,6 +4,8 @@
     <title>Add EC2 Origin on AWS CLOUDFRONT WORKSHOP</title>
     <link>/3-create-cloudfront-distribution/3.1-addec2/</link>
     <description>Recent content in Add EC2 Origin on AWS CLOUDFRONT WORKSHOP</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="/3-create-cloudfront-distribution/3.1-addec2/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="/3-create-cloudfront-distribution/3.1-addec2/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
