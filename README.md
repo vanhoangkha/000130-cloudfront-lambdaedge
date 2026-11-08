@@ -1,4 +1,4 @@
-# 🌐 CloudFront + Lambda@Edge
+# CloudFront + Lambda@Edge
 
 Content delivery and edge computing with CloudFront and Lambda@Edge.
 
@@ -8,7 +8,7 @@ This is a hands-on workshop from the **AWS First Cloud Journey** series.
 
 ## Workshop
 
-📖 **[Start the workshop](https://vanhoangkha.github.io/000130-cloudfront-lambdaedge/)**
+**[Start the workshop](https://vanhoangkha.github.io/000130-cloudfront-lambdaedge/)**
 
 ## Prerequisites
 
